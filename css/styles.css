@@ -254,16 +254,10 @@ p {
 }
 
 .item-team {
-  flex-basis: calc ((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   background: #fff;
   border-radius: 0 0 4px 4px;
   overflow: hidden;
-}
-
-.item-team img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .item-team {
@@ -272,6 +266,12 @@ p {
   text-align: center;
   padding-bottom: 32px;
   overflow: hidden;
+}
+
+.item-team img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .team-info {
@@ -353,7 +353,6 @@ p {
 }
 
 .footer-logo {
-  display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
