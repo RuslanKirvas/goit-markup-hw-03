@@ -5,6 +5,11 @@ body {
 }
 
 /* reset */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 ul,
 ol {
@@ -272,12 +277,6 @@ p {
   text-align: center;
   padding-bottom: 32px;
   overflow: hidden;
-}
-
-.item-team img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 .team-info {
