@@ -241,6 +241,12 @@ p {
 }
 
 /* section-team */
+.team-list .item-team:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
 
 .time-title {
   text-align: center;
@@ -353,6 +359,7 @@ p {
 }
 
 .footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
