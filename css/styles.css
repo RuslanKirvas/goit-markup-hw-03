@@ -229,7 +229,8 @@ p {
 }
 
 .item-text {
-  text-align: left;
+  margin: 0;
+  font-size: 16px;
 }
 
 .visually-hidden {
@@ -294,12 +295,6 @@ p {
   text-align: center;
   margin-bottom: 8px;
   font-size: 20px;
-}
-
-.item-text {
-  text-align: center;
-  margin: 0;
-  font-size: 16px;
 }
 
 /* portfolio */
